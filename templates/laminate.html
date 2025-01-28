@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>แบบฟอร์ม Laminate</title>
+</head>
+<body>
+    <h2>แบบฟอร์ม Laminate</h2>
+    <form action="/submit" method="post">
+        <input type="hidden" name="form_type" value="Laminate">
+        <label>ชื่อ:</label>
+        <input type="text" name="name" required><br>
+        <label>อีเมล:</label>
+        <input type="email" name="email" required><br>
+        <label>รายละเอียด:</label>
+        <textarea name="details"></textarea><br>
+        <input type="submit" value="ส่งข้อมูล">
+    </form>
+</body>
+</html>
